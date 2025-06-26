@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, EyeOff, Mail, Lock, User, Github, Chrome } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, User, Github } from 'lucide-react';
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
@@ -145,10 +145,6 @@ function App() {
 
           {/* 社交登录 */}
           <div className="space-y-3">
-            <button className="btn-secondary flex items-center justify-center space-x-2">
-              <Chrome className="w-5 h-5" />
-              <span>使用 Google 继续</span>
-            </button>
             <button className="btn-secondary flex items-center justify-center space-x-2">
               <Github className="w-5 h-5" />
               <span>使用 GitHub 继续</span>
