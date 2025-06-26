@@ -11,6 +11,8 @@ export default {
       },
       colors: {
         border: 'rgb(209 213 219)', // gray-300 equivalent
+        background: 'rgb(255 255 255)', // white background
+        foreground: 'rgb(17 24 39)', // dark gray text
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
