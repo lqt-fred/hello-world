@@ -40,7 +40,7 @@ function App() {
               <User className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-2xl font-semibold text-white mb-1">
-              {isLogin ? '用户登录121233' : '用户注册'}
+              {isLogin ? '用户登录' : '用户注册'}
             </h1>
             <p className="text-green-100 text-sm">
               {isLogin ? '请输入您的账号信息' : '创建您的新账户'}
@@ -49,7 +49,7 @@ function App() {
 
           {/* 表单内容 */}
           <div className="px-8 py-6">
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-5">
               {!isLogin && (
                 <div className="form-item">
                   <label className="form-label">姓名</label>
@@ -91,7 +91,7 @@ function App() {
                   <input
                     type={showPassword ? 'text' : 'password'}
                     name="password"
-                    placeholder="请输入密码"
+                    placeholder="密码123"
                     value={formData.password}
                     onChange={handleInputChange}
                     className="form-input pl-10 pr-10"
