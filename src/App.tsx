@@ -40,7 +40,7 @@ function App() {
               <User className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-2xl font-semibold text-white mb-1">
-              {isLogin ? '用户登录123' : '用户注册'}
+              {isLogin ? '用户登录121233' : '用户注册'}
             </h1>
             <p className="text-green-100 text-sm">
               {isLogin ? '请输入您的账号信息' : '创建您的新账户'}
